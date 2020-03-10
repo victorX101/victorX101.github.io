@@ -69,8 +69,9 @@ a:hover{
 footer{
     color:white;
     position: absolute;
-    right:1.5em;
-    bottom: 1em;
+    right:3em;
+    bottom: 1.5em;
+    padding:2em;
     font-stretch: expanded;
     font-family: 'Abel', sans-serif;;
 }

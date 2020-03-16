@@ -36,7 +36,9 @@ a:hover{
     font-weight: 100;
     position:absolute;
     top:30%;
-    left:20%;
+    left:30%;
+    right:10%;
+    align-items: center;
     max-width: 30em;
     font-size: 1.25rem;
     text-align: left;
@@ -45,18 +47,16 @@ a:hover{
 
 }
 .contact-heading{
-    position:relative;
-    left:2em;
-    top:0;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
 
 }
 .contact-links{
     size: 50px;
+    text-align: center;
     padding:20px;
     position: relative;
-    left:4em;
+    left:3em;
     
 }
 .contact-links:hover{
@@ -64,23 +64,23 @@ a:hover{
     size: 50px;
     padding:20px;
     position: relative;
-    left:4em;
+    left:3em;
 }
 footer{
     color:white;
     position: absolute;
-    right:3em;
-    bottom: 1.5em;
+    right:0;
+    bottom:0;
     padding:2em;
     font-stretch: expanded;
     font-family: 'Abel', sans-serif;;
 }
-ul{
+ul.navbar{
     list-style-type: none;
     cursor: pointer;
     padding-top: 5px;
     padding-bottom:10px;
-    padding-right: 1.5em;
+    padding-right: 1em;
     float:right;
     color:white;
     font-family:'Inter',sans-serif;
@@ -97,7 +97,7 @@ ul li a{
 
 }
 ul li a:active{
-    border-bottom: white;
+    border-bottom: white !important;
 }
 ul li a:hover{
     background-color: rgba(255, 255, 255, 0.336);
@@ -108,7 +108,7 @@ ul li a:hover{
     font-weight: 70;
     position:absolute;
     top:25%;
-    left:20%;
+    left:15%;
     max-width: 40em;
     font-size: 1.25rem;
     text-align: left;

@@ -9,7 +9,8 @@ p{
 a{
     color:#f1f1f1;
     text-decoration:none;
-    transition: 0.2s;   
+    transition: 0.2s;
+    padding:5px;   
 }
 
 .button{
@@ -25,9 +26,15 @@ a{
     color:black;
     background-color: rgba(255, 255, 255, 0.678);
 }
-a:hover{
-    color:white;
+.startup{
+    padding:2px;
+    padding-left: 4px;
     background-color:#0099ff;
+    font-weight: 400;
+}
+.startup:hover{
+    color:white;
+    background-color:#0099ffa2;
     font-weight:bolder;
 
 
@@ -59,7 +66,7 @@ a:hover{
 .contact-links:hover{
     background-color: rgba(0, 0, 0, 0);
     size: 50px;
-    padding:20px;
+    padding:5px;
 }
 footer{
     color:white;
@@ -96,7 +103,7 @@ ul li a:active{
 ul li a:hover{
     background-color: rgba(255, 255, 255, 0.336);
     color:black;
-    padding: 3px;
+    padding: 7px;
 }
 .para{
     font-weight: 70;
@@ -113,9 +120,3 @@ ul li a:hover{
     font-family:'Inter',sans-serif;
 }
 
-.contact-me:active{
-    
-    color:white;
-    border-bottom: 5px solid white;
-
-}

@@ -35,11 +35,10 @@ a:hover{
 .parar{
     font-weight: 100;
     text-align: center;
-    max-width: 80%;
+    max-width: 90%;
     position:absolute;
     top:30%;
-    left:10%;
-    right:10%;
+    left:3%;
     font-size: 1.25rem;
     color:white;
     font-family:'Inter',sans-serif;
@@ -48,12 +47,13 @@ a:hover{
 .contact-heading{
     text-align: center;
     font-size: 1.5em;
+    padding-left:35px;
 
 }
 .contact-links{
     size: 50px;
     text-align: center;
-    padding:20px;
+    padding:5px;
     
 }
 .contact-links:hover{
@@ -66,7 +66,7 @@ footer{
     position: absolute;
     right:0;
     bottom:0;
-    padding:2em;
+    padding:15px;
     font-stretch: expanded;
     font-family: 'Abel', sans-serif;;
 }
@@ -100,14 +100,22 @@ ul li a:hover{
 }
 .para{
     font-weight: 70;
+    line-height: 1.5;
+    max-height: 40em;
     position:absolute;
-    top:25%;
-    left:15%;
+    padding:1em;
+    top:20%;
+    left:10%;
     max-width: 40em;
-    font-size: 1.25rem;
+    font-size: 1rem;
     text-align: left;
     color:white;
     font-family:'Inter',sans-serif;
+}
+
+.contact-me:active{
     
-    
+    color:white;
+    border-bottom: 5px solid white;
+
 }

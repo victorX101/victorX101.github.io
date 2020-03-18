@@ -34,14 +34,13 @@ a:hover{
 }
 .parar{
     font-weight: 100;
+    text-align: center;
+    max-width: 80%;
     position:absolute;
     top:30%;
-    left:30%;
+    left:10%;
     right:10%;
-    align-items: center;
-    max-width: 30em;
     font-size: 1.25rem;
-    text-align: left;
     color:white;
     font-family:'Inter',sans-serif;
 
@@ -55,16 +54,12 @@ a:hover{
     size: 50px;
     text-align: center;
     padding:20px;
-    position: relative;
-    left:3em;
     
 }
 .contact-links:hover{
-    background-color: rgba(0,0,0, 0.336);
+    background-color: rgba(0, 0, 0, 0);
     size: 50px;
     padding:20px;
-    position: relative;
-    left:3em;
 }
 footer{
     color:white;

@@ -1,7 +1,9 @@
 body{
     background: black;
 }
-
+input,textarea,button,select, a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
 p{
     margin-top: 15px;
     margin-bottom:2em;
